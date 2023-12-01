@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://kit.fontawesome.com/2361f36376.js" crossorigin="anonymous"></script>   <!--it is a kit of symbols (with animation for some logos)-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SS VISION</title>
+</head>
+<style>
+    body{                                           /*by default body is has some margin*/
+        margin: 0%;
+        background-color:rgb(255, 255, 255);
+    }
+    .left{
+        background-color: rgb(255, 255, 255);
+        position: fixed;
+        /*usually used fixed to make fixed navbar but also can used for disable scroll*/
+        color: rgb(0, 0, 0);
+        width:220px;
+        margin: 2px;
+        border-radius: 12px;
+        text-align: center;
+        box-shadow: 0px 0px 40px rgb(0, 0, 0); /**/
+        height: 100%;
+    }
+    .right{
+        left: 223px;
+        /*it leavs the space of 223px from left*/
+        position:absolute;
+        /*insted of absolute , relative can be used "make sure that the above class is fixed"*/
+        background-color: rgb(0, 247, 255);
+        word-wrap: break-word;
+        max-width: 1190px;
+        margin: 21px;
+        border-radius: 13px;
+        box-shadow: 0px 0px 30px rgb(4, 255, 0);
+        text-align:justify;
+        right: 0%;
+        height: auto;
+    }
+    img{
+        width: 153px;
+        border: 5px solid rgb(0, 0, 0);
+        border-radius: 32px;
+        margin: 26px;
+        box-shadow: 0px 0px 30px black;
+        /*shadow is for design and we can control 30px and 0px also*/
+    }
+    h1{
+        font-size: 52px;
+        text-align: center;
+        
+    }
+    button{
+        width:199px;
+        height: 42px;
+        border: 2px solid rgba(0, 0, 255, 0.678);
+        margin: 6px;
+        background-color: transparent;
+    }
+    .foot{
+        background-color: black;
+        color:white;
+        column-count: 3;
+        padding: 2%;
+    }
+    a{
+        text-decoration: none;
+    }
+    .heder{
+        margin: 12px;
+    }
+    @media screen and (max-width:800px){     /*it is a useful css which creates separate css sheet and we can assign the limit in terms of height or width with min or max*/
+        .left{
+            position:relative;
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            /*in stead of making "display:none;" this is best to avoid separate code*/
+        }
+        .right{
+            left: 0%;
+            margin: 0%;
+            text-shadow:0px 1px white;
+        }
+        img{
+            width: 102px;
+            border-radius: 12px;
+        }
+        button{
+            width: 24%;
+            margin: 0%;
+        }
+        button:hover{
+            background-color: rgb(239, 0, 0);
+        }
+    }
+
+</style>
+<body>
+    <div>
+        <div class="left">
+            <div><img src="g.png"></div><!--image can be changable-->
+            <button><a href="#">HOME</a></button>
+            <button><a href="#">ABOUT</a></button>
+            <button><a href="#">CLASS</a></button>
+            <button><a href="#">SUBJECT</a></button>
+        </div>
+        <div class="right">
+            <div class="heder">
+                <h1>SS VISION</h1>
+                <p> Sachin Ramesh Tendulkar,pronounced [sətɕin teːɳɖulkəɾ]; born 24 April 1973) is an Indian former international cricketer who captained the Indian national team. He is widely regarded as one of the greatest batsmen in the history of cricket.[4] Hailed as the world's most prolific batsman of all time, he is the all-time highest run-scorer in both ODI and Test cricket with more than 18,000 runs and 15,000 runs, respectively.[5] He also holds the record for receiving the most player of the match awards in international cricket.[6] Tendulkar was a Member of Parliament, Rajya Sabha by nomination from 2012 to 2018.[7][8] </p>
+                <p> Sachin Ramesh Tendulkar,pronounced [sətɕin teːɳɖulkəɾ]; born 24 April 1973) is an Indian former international cricketer who captained the Indian national team. He is widely regarded as one of the greatest batsmen in the history of cricket.[4] Hailed as the world's most prolific batsman of all time, he is the all-time highest run-scorer in both ODI and Test cricket with more than 18,000 runs and 15,000 runs, respectively.[5] He also holds the record for receiving the most player of the match awards in international cricket.[6] Tendulkar was a Member of Parliament, Rajya Sabha by nomination from 2012 to 2018.[7][8] </p>
+                <p> Sachin Ramesh Tendulkar,pronounced [sətɕin teːɳɖulkəɾ]; born 24 April 1973) is an Indian former international cricketer who captained the Indian national team. He is widely regarded as one of the greatest batsmen in the history of cricket.[4] Hailed as the world's most prolific batsman of all time, he is the all-time highest run-scorer in both ODI and Test cricket with more than 18,000 runs and 15,000 runs, respectively.[5] He also holds the record for receiving the most player of the match awards in international cricket.[6] Tendulkar was a Member of Parliament, Rajya Sabha by nomination from 2012 to 2018.[7][8] </p>
+                <p> Sachin Ramesh Tendulkar,pronounced [sətɕin teːɳɖulkəɾ]; born 24 April 1973) is an Indian former international cricketer who captained the Indian national team. He is widely regarded as one of the greatest batsmen in the history of cricket.[4] Hailed as the world's most prolific batsman of all time, he is the all-time highest run-scorer in both ODI and Test cricket with more than 18,000 runs and 15,000 runs, respectively.[5] He also holds the record for receiving the most player of the match awards in international cricket.[6] Tendulkar was a Member of Parliament, Rajya Sabha by nomination from 2012 to 2018.[7][8] </p>
+                <p> Sachin Ramesh Tendulkar,pronounced [sətɕin teːɳɖulkəɾ]; born 24 April 1973) is an Indian former international cricketer who captained the Indian national team. He is widely regarded as one of the greatest batsmen in the history of cricket.[4] Hailed as the world's most prolific batsman of all time, he is the all-time highest run-scorer in both ODI and Test cricket with more than 18,000 runs and 15,000 runs, respectively.[5] He also holds the record for receiving the most player of the match awards in international cricket.[6] Tendulkar was a Member of Parliament, Rajya Sabha by nomination from 2012 to 2018.[7][8] </p>
+                <p> Sachin Ramesh Tendulkar,pronounced [sətɕin teːɳɖulkəɾ]; born 24 April 1973) is an Indian former international cricketer who captained the Indian national team. He is widely regarded as one of the greatest batsmen in the history of cricket.[4] Hailed as the world's most prolific batsman of all time, he is the all-time highest run-scorer in both ODI and Test cricket with more than 18,000 runs and 15,000 runs, respectively.[5] He also holds the record for receiving the most player of the match awards in international cricket.[6] Tendulkar was a Member of Parliament, Rajya Sabha by nomination from 2012 to 2018.[7][8] </p>
+                <p> Sachin Ramesh Tendulkar,pronounced [sətɕin teːɳɖulkəɾ]; born 24 April 1973) is an Indian former international cricketer who captained the Indian national team. He is widely regarded as one of the greatest batsmen in the history of cricket.[4] Hailed as the world's most prolific batsman of all time, he is the all-time highest run-scorer in both ODI and Test cricket with more than 18,000 runs and 15,000 runs, respectively.[5] He also holds the record for receiving the most player of the match awards in international cricket.[6] Tendulkar was a Member of Parliament, Rajya Sabha by nomination from 2012 to 2018.[7][8] </p>
+                <p> Sachin Ramesh Tendulkar,pronounced [sətɕin teːɳɖulkəɾ]; born 24 April 1973) is an Indian former international cricketer who captained the Indian national team. He is widely regarded as one of the greatest batsmen in the history of cricket.[4] Hailed as the world's most prolific batsman of all time, he is the all-time highest run-scorer in both ODI and Test cricket with more than 18,000 runs and 15,000 runs, respectively.[5] He also holds the record for receiving the most player of the match awards in international cricket.[6] Tendulkar was a Member of Parliament, Rajya Sabha by nomination from 2012 to 2018.[7][8] </p>
+            </div>
+                <footer>
+                    <div class="foot">
+                        <i class="fa-brands fa-instagram fa-beat"></i>
+                        <i class="fa-brands fa-facebook-f fa-beat"></i>
+                        <i class="fa-brands fa-x-twitter fa-beat"></i>
+                        <p>Sachin Ramesh Tendulkar,pronounced [sətɕin teːɳɖulkəɾ]; born 24 April 1973) is an Indian former international cricketer who captained the Indian national team. He is widely regarded as one of the greatest batsmen in the history of cricket.[4] Hailed as the world's most prolific batsman of all time, he is the all-time highest run-scorer in both ODI and Test cricket with more than 18,000 runs and 15,000 runs, respectively.[5] He also holds the record for receiving the most player of the match awards in international cricket.[6] Tendulkar was a Member of Parliament, Rajya Sabha by nomination from 2012 to 2018.[7][8]</p>
+                    </div>
+                </footer>
+            </div>
+    </div>
+</body>
+</html>
+
